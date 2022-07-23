@@ -162,13 +162,13 @@ sup {
 }
 
 a {
-  color: #044b7f;
+  color: #fff;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #026FBD;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -2780,7 +2780,7 @@ fieldset:disabled a.btn {
 .btn-primary:hover {
   color: #fff;
   background-color: #026FBD;
-  border-color: #029FBD;
+  border-color: #026FBD;
 }
 
 .btn-primary:focus, .btn-primary.focus {
