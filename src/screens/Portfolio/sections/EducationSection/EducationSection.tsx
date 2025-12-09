@@ -11,13 +11,13 @@ export const EducationSection = (): JSX.Element => {
   const educationData: EducationEntry[] = [
     {
       institution: "The University of Melbourne",
-      degree: "Bachelor of Science in Computing and Software Systems",
+      degree: "Bachelor of Science (BS) in Computing and Software Systems",
       period: "July 2023 - Present",
-      skills: ["C#", "Java", "SQL", "Python"],
+      skills: ["C#", "Java", "HTML", "CSS / Tailwind", "JavaScript (ReactJS)", "SQL", "Python"],
     },
     {
-      institution: "Trinity College, Australia",
-      degree: "Associate Science degree",
+      institution: "Trinity College, Melbourne",
+      degree: "Associate of Science (AS)",
       period: " July 2022 - July 2023",
       skills: ["Mathematics", "Psychology"],
     },
@@ -61,28 +61,34 @@ export const EducationSection = (): JSX.Element => {
               {entry.skills.map((skill, skillIndex) => (
                 <li key={skillIndex} className="relative h-[33px]">
                   <div
-                    className="absolute top-px left-0 h-8 bg-[#ededed] rounded-2xl"
+                    className="top-px left-0 h-8 bg-[#ededed] rounded-2xl"
                     style={{
                       width:
                         skill === "C#"
-                          ? "51px"
+                          ? "47px"
                           : skill === "Java"
-                            ? "62px"
-                            : skill === "SQL"
-                              ? "50px"
-                              : skill === "Python"
-                                ? "70px"
-                                : skill === "Mathematics"
-                                  ? "112px"
-                                  : skill === "Psychology"
-                                    ? "99px"
-                                    : skill === "Chemistry"
-                                      ? "92px"
-                                      : skill === "Physics"
-                                        ? "74px"
-                                        : skill === "Biology"
-                                          ? "74px"
-                                          : "auto",
+                            ? "59px"
+                            : skill === "HTML"
+                              ? "59px"
+                                : skill === "CSS / Tailwind"
+                                ? "117px"
+                                  : skill === "JavaScript (ReactJS)"
+                                  ? "159px"
+                                    : skill === "SQL"
+                                      ? "50px"
+                                        : skill === "Python"
+                                        ? "69px"
+                                          : skill === "Mathematics"
+                                            ? "112px"
+                                            : skill === "Psychology"
+                                              ? "99px"
+                                              : skill === "Chemistry"
+                                                ? "92px"
+                                                : skill === "Physics"
+                                                  ? "74px"
+                                                  : skill === "Biology"
+                                                    ? "74px"
+                                                    : "auto",
                     }}
                   />
                   <span className="absolute top-0 left-3.5 [font-family:'Poppins',Helvetica] font-medium text-[#666666] text-xs tracking-[0.26px] leading-[33px] whitespace-nowrap">

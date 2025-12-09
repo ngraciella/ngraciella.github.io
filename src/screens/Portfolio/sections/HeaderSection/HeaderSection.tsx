@@ -65,7 +65,8 @@ export const HeaderSection = (): JSX.Element => {
       </div>
 
       <p className="top-[324px] left-[567px] w-[554px] text-2xl absolute [font-family:'Poppins',Helvetica] font-normal text-[#6d6d6d] tracking-[0.39px] leading-9">
-        I am an undergraduate majoring in Computing and Software Sytems, currently in my final year.
+        I am a undergraduate senior majoring<br />in Computing and Software Sytems,<br />
+        working part-time as Casual Retail<br />Assistant at FILA, Australia.
       </p>
 
       <div
