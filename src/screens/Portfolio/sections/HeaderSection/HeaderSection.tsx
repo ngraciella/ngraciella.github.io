@@ -91,7 +91,7 @@ export const HeaderSection = (): JSX.Element => {
       </div>
 
       <nav
-        className="absolute top-[60px] left-[660px] w-[467px] h-6 flex"
+        className="absolute top-[60px] left-[40%] w-[467px] h-6 flex"
         aria-label="Main navigation"
       >
         {navigationLinks.map((link, index) => (

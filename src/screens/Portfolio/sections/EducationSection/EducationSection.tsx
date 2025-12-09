@@ -11,13 +11,13 @@ export const EducationSection = (): JSX.Element => {
   const educationData: EducationEntry[] = [
     {
       institution: "The University of Melbourne",
-      degree: "Bachelor of Science (BS) in Computing and Software Systems",
+      degree: "Bachelor of Science in Computing and Software Systems",
       period: "July 2023 - Present",
-      skills: ["C#", "Java", "HTML", "CSS / Tailwind", "JavaScript (ReactJS)", "SQL", "Python"],
+      skills: ["C#", "Java", "HTML", "CSS / Tailwind", "JavaScript (ReactJS)", "SQL"],
     },
     {
       institution: "Trinity College, Melbourne",
-      degree: "Associate of Science (AS)",
+      degree: "Associate of Science",
       period: " July 2022 - July 2023",
       skills: ["Mathematics", "Psychology"],
     },
@@ -76,8 +76,6 @@ export const EducationSection = (): JSX.Element => {
                                   ? "159px"
                                     : skill === "SQL"
                                       ? "50px"
-                                        : skill === "Python"
-                                        ? "69px"
                                           : skill === "Mathematics"
                                             ? "112px"
                                             : skill === "Psychology"

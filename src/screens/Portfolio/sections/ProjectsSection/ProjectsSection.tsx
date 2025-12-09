@@ -44,7 +44,7 @@ export const ProjectsSection = (): JSX.Element => {
 
         <div className="w-[1301px] h-[494px] relative mt-[5rem]">
           <a
-            className="absolute top-[440px] left-[742px] w-[411px] [font-family:'Poppins',Helvetica] font-normal text-[#6d6d6d] text-lg tracking-[0.39px] leading-[33px] underline hover:text-[#999999] transition-colors"
+            className="absolute top-[440px] left-[55%] w-[411px] [font-family:'Poppins',Helvetica] font-normal text-[#6d6d6d] text-lg tracking-[0.39px] leading-[33px] underline hover:text-[#999999] transition-colors"
             href="https://edens-group.vercel.app"
             rel="noopener noreferrer"
             target="_blank"
@@ -53,17 +53,17 @@ export const ProjectsSection = (): JSX.Element => {
             https://edens-group.vercel.app
           </a>
 
-          <p className="absolute top-[247px] left-[742px] w-[411px] [font-family:'Poppins',Helvetica] font-normal text-[#6d6d6d] text-lg tracking-[0.39px] leading-[33px]">
+          <p className="absolute top-[247px] left-[55%] w-[411px] [font-family:'Poppins',Helvetica] font-normal text-[#6d6d6d] text-lg tracking-[0.39px] leading-[33px]">
             Designed Willie, an AI virtual assistant, for The Victorian Collaborative Centre
             to help people find the nearest mental health
             services near their locations in Australia
           </p>
 
-          <div className="absolute top-[171px] left-[742px] w-[540px] [font-family:'Poppins',Helvetica] font-normal text-[#6d6d6d] text-xl tracking-[0.39px] leading-[33px]">
+          <div className="absolute top-[171px] left-[55%] w-[540px] [font-family:'Poppins',Helvetica] font-normal text-[#6d6d6d] text-xl tracking-[0.39px] leading-[33px]">
             FRONTEND DEVELOPER
           </div>
 
-          <h3 className="absolute top-0.5 left-[742px] [font-family:'Poppins',Helvetica] font-bold text-[#999999] text-[57px] tracking-[-0.26px] leading-[normal] whitespace-pre-line">
+          <h3 className="absolute top-0.5 left-[55%] [font-family:'Poppins',Helvetica] font-bold text-[#999999] text-[57px] tracking-[-0.26px] leading-[normal] whitespace-pre-line">
             Willie: Virtual<br />Assistant
           </h3>
 
