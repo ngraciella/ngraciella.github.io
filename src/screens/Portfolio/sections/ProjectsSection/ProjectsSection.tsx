@@ -14,7 +14,7 @@ export const ProjectsSection = (): JSX.Element => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Mental Health\nService Navigation",
+      title: "Willie: Virtual\nAssistant",
       role: "FRONTEND DEVELOPER",
       description:
         "Designed a website to assist people in finding the nearest mental health services within Australia",
@@ -38,8 +38,8 @@ export const ProjectsSection = (): JSX.Element => {
   return (
     <section id ="project-section">
       <div className="ml-[12%] w-[100%] h-[1376px] mt-[33px] flex flex-col">
-        <h2 className="w-[335px] h-[120px] [font-family:'Poppins',Helvetica] font-bold text-[#999999] text-[80px] tracking-[0] leading-[normal]">
-          Projects
+        <h2 className="h-[120px] [font-family:'Poppins',Helvetica] font-bold text-[#999999] text-[80px] tracking-[0] leading-[normal]">
+          Latest Projects
         </h2>
 
         <div className="w-[1301px] h-[494px] relative mt-[5rem]">
@@ -54,9 +54,9 @@ export const ProjectsSection = (): JSX.Element => {
           </a>
 
           <p className="absolute top-[247px] left-[742px] w-[411px] [font-family:'Poppins',Helvetica] font-normal text-[#6d6d6d] text-lg tracking-[0.39px] leading-[33px]">
-            Designed a website for The Victorian Collaborative Centre (For Mental Health and Well-being)
-            to assist people in finding the nearest mental
-            health services within Australia
+            Designed Willie, an AI virtual assistant, for The Victorian Collaborative Centre
+            to help people find the nearest mental health
+            services near their locations in Australia
           </p>
 
           <div className="absolute top-[171px] left-[742px] w-[540px] [font-family:'Poppins',Helvetica] font-normal text-[#6d6d6d] text-xl tracking-[0.39px] leading-[33px]">
@@ -64,9 +64,7 @@ export const ProjectsSection = (): JSX.Element => {
           </div>
 
           <h3 className="absolute top-0.5 left-[742px] [font-family:'Poppins',Helvetica] font-bold text-[#999999] text-[57px] tracking-[-0.26px] leading-[normal] whitespace-pre-line">
-            Mental Health
-            <br />
-            Service Navigation
+            Willie: Virtual<br />Assistant
           </h3>
 
           <img

@@ -19,7 +19,7 @@ export const AboutMeSection = (): JSX.Element => {
           id="about-heading"
           className="absolute top-0 left-[3px] [font-family:'Poppins',Helvetica] font-bold text-[#999999] text-[80px] tracking-[0] leading-[normal]"
         >
-          Contact
+          Contact me
         </h2>
         
         <div className="top-[15%] w-[1089px] h-[440px] absolute left-0">

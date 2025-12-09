@@ -16,6 +16,7 @@ export default defineConfig(({ mode }) => {
     plugins,
     publicDir: "/static",
     base: "/",
+    assetsInclude: ['**/*.pdf'],
     css: {
       postcss: {
         plugins: [tailwind()],
