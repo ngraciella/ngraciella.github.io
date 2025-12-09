@@ -1,3 +1,5 @@
+import React from "react";
+
 interface ContactInfo {
   label: string;
   value: string;

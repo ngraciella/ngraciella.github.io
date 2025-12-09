@@ -1,3 +1,5 @@
+import React from "react";
+
 export const FooterSection = (): JSX.Element => {
   return (
     <footer className="w-[100%] h-[90px] relative bg-transparent">
