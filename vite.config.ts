@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => {
   return {
     plugins,
     publicDir: "./static",
-    base: "./",
+    base: "/",
     css: {
       postcss: {
         plugins: [tailwind()],
