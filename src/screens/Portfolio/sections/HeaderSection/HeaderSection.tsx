@@ -55,7 +55,7 @@ export const HeaderSection = (): JSX.Element => {
         <div className="-top-px -left-px h-[115px] bg-[#ffe7e7] absolute w-[355px]" />
 
         <a
-          href="/cv.pdf"
+          href="/public/cv.pdf"
           className="absolute top-10 left-10 opacity-60 [font-family:'Poppins',Helvetica] font-medium text-black text-2xl tracking-[8.30px] leading-[normal] hover:opacity-100 transition-opacity cursor-pointer"
           download
           aria-label="Download curriculum vitae"

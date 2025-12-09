@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins,
-    publicDir: "/static",
+    publicDir: "/public",
     base: "/",
     assetsInclude: ['**/*.pdf', '**/*.ico'],
     css: {
