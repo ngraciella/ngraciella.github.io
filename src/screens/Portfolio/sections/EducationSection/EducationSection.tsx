@@ -1,5 +1,3 @@
-import React from "react";
-
 interface EducationEntry {
   institution: string;
   degree: string;
@@ -16,21 +14,15 @@ export const EducationSection = (): JSX.Element => {
       skills: ["C#", "Java", "SQL", "Python"],
     },
     {
-      institution: "Trinity College - AU",
+      institution: "Trinity College, Australia",
       degree: "Associate Science degree",
       period: " July 2022 - July 2023",
       skills: ["Mathematics", "Psychology"],
     },
-    {
-      institution: "SMAK 5 Penabur Jakarta",
-      degree: "Associate Science degree",
-      period: "July 2019 - July 2022",
-      skills: ["Mathematics", "Chemistry", "Physics", "Biology"],
-    },
   ];
 
   return (
-    <section id = "education-section" className="ml-[119px] w-[1052px] h-[518px] mt-[100px] flex flex-col">
+    <section id = "education-section" className="ml-[12%] w-[100%] h-[518px] mt-[100px] flex flex-col">
       <h2 className="w-[416px] h-[120px] [font-family:'Poppins',Helvetica] font-bold text-[#999999] text-[80px] tracking-[0] leading-[normal]">
         Education
       </h2>

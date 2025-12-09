@@ -1,5 +1,3 @@
-import React from "react";
-
 interface Project {
   id: number;
   title: string;
@@ -36,14 +34,14 @@ export const ProjectsSection = (): JSX.Element => {
   ];
 
   return (
-    <section id ="project-section" className="ml-[119px] w-[1295px] h-[1376px] mt-[173px] flex flex-col">
+    <section id ="project-section" className="ml-[12%] w-[100%] h-[1376px] mt-[33px] flex flex-col">
       <h2 className="w-[335px] h-[120px] [font-family:'Poppins',Helvetica] font-bold text-[#999999] text-[80px] tracking-[0] leading-[normal]">
         Projects
       </h2>
 
-      <div className="w-[1301px] h-[494px] relative mt-11">
+      <div className="w-[1301px] h-[494px] relative mt-[5rem]">
         <a
-          className="absolute top-[378px] left-[742px] w-[411px] [font-family:'Poppins',Helvetica] font-normal text-[#6d6d6d] text-lg tracking-[0.39px] leading-[33px] underline hover:text-[#999999] transition-colors"
+          className="absolute top-[440px] left-[742px] w-[411px] [font-family:'Poppins',Helvetica] font-normal text-[#6d6d6d] text-lg tracking-[0.39px] leading-[33px] underline hover:text-[#999999] transition-colors"
           href="https://edens-group.vercel.app"
           rel="noopener noreferrer"
           target="_blank"
@@ -53,7 +51,8 @@ export const ProjectsSection = (): JSX.Element => {
         </a>
 
         <p className="absolute top-[247px] left-[742px] w-[411px] [font-family:'Poppins',Helvetica] font-normal text-[#6d6d6d] text-lg tracking-[0.39px] leading-[33px]">
-          Designed a website to assist people in finding the nearest mental
+          Designed a website for The Victorian Collaborative Centre (For Mental Health and Well-being)
+          to assist people in finding the nearest mental
           health services within Australia
         </p>
 
@@ -75,10 +74,10 @@ export const ProjectsSection = (): JSX.Element => {
         />
       </div>
 
-      <div className="ml-[41px] w-[1162px] h-[494px] relative mt-56">
+      <div className="ml-[41px] w-[1162px] h-[494px] relative mt-[10rem]">
         <p className="absolute top-[348px] left-3.5 w-[405px] [font-family:'Poppins',Helvetica] font-normal text-[#6d6d6d] text-lg text-right tracking-[0.39px] leading-[33px]">
-          A simple classic game for refreshing! Users must pick-up and drop-off
-          passengers while collecting in-game currency
+          A casual game for your entertainment!<br />Pick-up and drop-off passengers<br />
+          while collecting in-game currency
         </p>
 
         <div className="absolute top-[271px] right-[743px] w-[405px] [font-family:'Poppins',Helvetica] font-normal text-[#6d6d6d] text-xl text-right tracking-[0.39px] leading-[33px]">

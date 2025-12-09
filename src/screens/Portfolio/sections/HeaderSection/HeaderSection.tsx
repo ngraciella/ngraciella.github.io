@@ -4,7 +4,7 @@ export const HeaderSection = (): JSX.Element => {
   const navigationLinks = [
     { label: "EDUCATION", href: "#education-section" },
     { label: "PROJECT", href: "#project-section" },
-    { label: "ABOUT", href: "#about" },
+    { label: "CONTACT", href: "#contact" },
   ];
 
   const socialLinks = [
@@ -14,10 +14,10 @@ export const HeaderSection = (): JSX.Element => {
   ];
 
   return (
-    <header className="ml-[200px] w-[1242px] h-[769px] relative bg-transparent">
-      <div className="left-[120px] w-[1121px] h-[715px] bg-[#d7d7d7] opacity-[0.22] absolute -top-px" />
+    <header className="ml-[15%] w-[100%] h-[769px] relative bg-transparent">
+      <div className="left-[120px] w-[90%] h-[715px] bg-[#d7d7d7] opacity-[0.22] absolute -top-px" />
 
-      <div className="absolute top-0 left-[127px] w-[1113px] h-[715px] aspect-[1.56]">
+      <div className="absolute top-0 left-[127px] h-[715px] aspect-[1.56]">
         <img
           className="absolute w-[99.73%] h-full top-0 left-0"
           alt="Portfolio hero background"
@@ -65,8 +65,7 @@ export const HeaderSection = (): JSX.Element => {
       </div>
 
       <p className="top-[324px] left-[567px] w-[554px] text-2xl absolute [font-family:'Poppins',Helvetica] font-normal text-[#6d6d6d] tracking-[0.39px] leading-9">
-        I am an undergraduate final-year student studying Computing and Software
-        Systems.
+        I am an undergraduate majoring in Computing and Software Sytems, currently in my final year.
       </p>
 
       <div
